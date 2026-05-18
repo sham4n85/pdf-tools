@@ -1,0 +1,7 @@
+services:
+  pdf-tools:
+    build: .
+    container_name: pdf-tools
+    ports:
+      - "5001:5001"
+    restart: unless-stopped
